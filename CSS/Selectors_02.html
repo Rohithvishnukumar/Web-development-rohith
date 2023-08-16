@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+
+    <style>
+        h1{
+            background-color: black;  /* this is a element selector */
+        }
+
+        .roh{
+            background-color: rgb(88, 6, 19);  /* this is a class selector */
+        }
+
+        #vis{
+            background-color: #5f3e81;  /* this is a id selector */
+        }
+
+        span[aria-setsize = "40"]{
+            background-color: yellow;  /* this is a attribute selector  this only works for the specific tag which has this attribute*/
+        }
+
+        *{
+            text-align: center;
+        }
+
+
+    </style>
+</head>
+
+<body>
+
+    <h1>Welcome Rohith Vishnu Kumar</h1> 
+
+    <div class="roh">  
+        roh Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod assumenda voluptatum voluptatem, ullam deserunt laborum amet et nesciunt iste! Voluptas eius suscipit minima vitae tempora minus deserunt sunt blanditiis consequatur!
+    </div>
+
+    <div id="vis"> 
+        vis Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus obcaecati veritatis optio debitis praesentium ea, quia facere cupiditate, blanditiis quis earum atque consequuntur dolor doloremque assumenda totam! Tenetur, cumque autem!
+    </div>
+
+    <span aria-setsize="40">
+        span Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum voluptates recusandae necessitatibus esse? Exercitationem quidem voluptatem perspiciatis quia vel nihil? Ex nemo dolor expedita nisi facilis modi repudiandae id ducimus.
+    </span>
+
+    <p aria-setsize="40"> p  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi exercitationem eveniet quibusdam repellat ea tempore rem odit. Veritatis, excepturi unde. Deleniti sunt nostrum aliquam maiores ratione ab eius eum harum?</p>
+
+    <span aria-setsize="40"> span---- Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, neque?</span>
+
+    <span>hello world</span><br>
+
+    <span  aria-checked="true" aria-setsize="40"> hi world</span>
+
+</body>
+</html>
+
+
+<!-- if you are using attribute selector make sure that the attributes which has the value if mentioned it picks the tags with the same value or else if you mention the attribute without value in style then it applies to all the tags with the attribute with any value -->
