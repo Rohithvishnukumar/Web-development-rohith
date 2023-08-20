@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Specificity</title>
+
+    <style>
+
+      #vishnu {
+        background-color: black;
+      }
+
+      div {
+        background-color: yellow;
+      }
+
+      div[draggable] {
+        background-color: blue;
+      }
+
+      .rohith {
+        background-color: red;
+      }
+
+      
+    </style>
+  </head>
+
+  <body>
+    <div class="rohith" id="vishnu" draggable>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum unde
+      facilis quas ducimus autem soluta accusamus, laudantium est, ea iusto
+      fugit labore eius modi sit? A magnam ipsum consequatur ratione
+      voluptatibus ex nobis ullam laudantium voluptatem? Pariatur expedita
+      quibusdam nesciunt accusantium fuga modi sequi odit quis quisquam,
+      incidunt illum molestias rem corporis ducimus molestiae voluptas non!
+      Praesentium omnis esse tenetur eligendi illo architecto, ipsum adipisci
+      magni, necessitatibus, quia nemo eum neque atque itaque expedita ullam.
+      Necessitatibus totam magnam in! Incidunt esse odio quod velit aspernatur
+      dolores dolor. Reiciendis asperiores, sapiente recusandae quod, harum
+      labore fuga nihil non sit maiores nulla!
+    </div>
+    <br /><br />
+
+    <div>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias quod
+      autem est quo qui. Saepe beatae sapiente corrupti error iste quaerat quos?
+      Eos repellendus pariatur cupiditate, necessitatibus temporibus dolores
+      animi?
+    </div>
+  </body>
+</html>
+
+
+
+<!-- irrespective of position the order of priority goes like: 
+
+1) id 
+2) Attribute
+3) class
+4) element
+
+-->
