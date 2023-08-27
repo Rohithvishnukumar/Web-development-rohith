@@ -1,0 +1,5 @@
+In inline the word space is occupied overiding the height and width given
+
+in block entire web page is covered with a block with some pre set hight and width parameters but if you set some values for height and width then it is taken 
+
+In inline-block the word space is occupied and if you set some values for height and width then it is taken
