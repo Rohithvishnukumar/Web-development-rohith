@@ -24,6 +24,7 @@
         h1 {
             font-family: Segoe UI Black;
             font-size: 70px;
+            text-align: left;
         }
 
         footer {
@@ -39,6 +40,7 @@
             background-color: black;
             color: white;
         }
+        
 
         img {
             height: 200px;
@@ -48,19 +50,71 @@
         }
 
         div {
-            width: 650px;
+            width: 45%;     /* try refering width in this file to get better understanding on percentages*/
+            height: auto;
         }
 
         .java {
             float: left;
-            width: 700px;
+           
         }
 
         .python {
             float: right;
-            width: 700px;
+            
+        }
+
+        @media (max-width: 430px) {
+            p {
+                font-size: 20px;
+                font-family: 'Great Vibes', cursive;
+                font-family: 'Itim', cursive;
+                font-family: 'Lilita One', cursive;
+                font-family: 'Pacifico', cursive;
+                font-family: 'Permanent Marker', cursive;
+                font-family: 'Red Hat Text', sans-serif;
+            }
+
+            span {
+                color: yellow;
+            }
+
+            h1 {
+                font-family: Segoe UI Black;
+                font-size: 45px;
+            }
+
+            footer {
+                text-align: center;
+                position: relative;
+                bottom: 0px;
+                width: 100%;
+                height: 39px;
+                background-color: red;
+            }
+
+            img {
+                height: 300px;
+                width: 350px;
+
+            }
+
+            .java {
+
+                width: 400px;
+                height: auto;
+            }
+
+            .python {
+
+                width: 400px;
+                height: auto;
+
+            }
+
         }
     </style>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -71,7 +125,7 @@
 
 <body>
     <header>
-        <h1>This is Designed for <br> <span>Programmers</span> by <span>Programmers</span>.</h1><br><br><br><br>
+        <h1>This is Designed for <span>Programmers</span> by <span>Programmers</span>.</h1><br><br><br><br>
     </header>
 
     <main>
@@ -95,13 +149,13 @@
                 <b><big>Python</big></b><br>
                 Python, a versatile high-level programming language, prioritizes code readability and simplicity. With a
                 clear and elegant syntax, Python fosters efficient and intuitive development. It supports multiple
-                programming paradigms, including  
+                programming paradigms, including
             </p>
         </div>
     </main>
 
     <footer>Copyright ©️ Rohith Vishnu Industries pvt Ltd. All Rights Reserved</footer>
-    
+
 </body>
 
 </html>
