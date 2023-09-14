@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rohith Vishnu</title>
+
+    <style>
+        p {
+            font-size: 20px;
+            font-family: 'Great Vibes', cursive;
+            font-family: 'Itim', cursive;
+            font-family: 'Lilita One', cursive;
+            font-family: 'Pacifico', cursive;
+            font-family: 'Permanent Marker', cursive;
+            font-family: 'Red Hat Text', sans-serif;
+        }
+
+        span {
+            color: yellow;
+        }
+
+        h1 {
+            font-family: Segoe UI Black;
+            font-size: 70px;
+            text-align: left;
+        }
+
+        footer {
+            clear: both;
+            text-align: right;
+            position: fixed;
+            bottom: 0px;
+            width: 100%;
+            height: 30px;
+        }
+
+        body {
+            background-color: black;
+            color: white;
+        }
+        
+
+        img {
+            height: 200px;
+            width: 300px;
+            float: left;
+            padding: 30px;
+        }
+
+        div {
+            width: 45%;     /* try refering width in this file to get better understanding on percentages*/
+            height: auto;
+        }
+
+        .java {
+            float: left;
+           
+        }
+
+        .python {
+            float: right;
+            
+        }
+
+        @media (max-width: 430px) {
+            p {
+                font-size: 20px;
+                font-family: 'Great Vibes', cursive;
+                font-family: 'Itim', cursive;
+                font-family: 'Lilita One', cursive;
+                font-family: 'Pacifico', cursive;
+                font-family: 'Permanent Marker', cursive;
+                font-family: 'Red Hat Text', sans-serif;
+            }
+
+            span {
+                color: yellow;
+            }
+
+            h1 {
+                font-family: Segoe UI Black;
+                font-size: 45px;
+            }
+
+            footer {
+                text-align: center;
+                position: relative;
+                bottom: 0px;
+                width: 100%;
+                height: 39px;
+                background-color: red;
+            }
+
+            img {
+                height: 300px;
+                width: 350px;
+
+            }
+
+            .java {
+
+                width: 400px;
+                height: auto;
+            }
+
+            .python {
+
+                width: 400px;
+                height: auto;
+
+            }
+
+        }
+    </style>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Itim&family=Lilita+One&family=Pacifico&family=Permanent+Marker&family=Red+Hat+Text:wght@300&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <h1>This is Designed for <span>Programmers</span> by <span>Programmers</span>.</h1><br><br><br><br>
+    </header>
+
+    <main>
+
+        <div class="java">
+            <img src="https://litslink.com/wp-content/uploads/2020/11/what-is-java-image.png" alt="java logo" />
+            <p>
+                <big><b>Java</b></big><br>
+                Java, a versatile and widely used programming language, is celebrated
+                for its platform independence. Its hallmark "write once, run anywhere"
+                feature allows developers to craft applications compatible with
+                diverse devices and operating systems.
+
+            </p>
+        </div>
+
+        <div class="python">
+            <img src="https://ciracollege.com/wp-content/uploads/2020/11/How-to-Learn-Python.jpg" alt="python logo">
+
+            <p>
+                <b><big>Python</big></b><br>
+                Python, a versatile high-level programming language, prioritizes code readability and simplicity. With a
+                clear and elegant syntax, Python fosters efficient and intuitive development. It supports multiple
+                programming paradigms, including
+            </p>
+        </div>
+    </main>
+
+    <footer>Copyright ©️ Rohith Vishnu Industries pvt Ltd. All Rights Reserved</footer>
+
+</body>
+
+</html>
+
+
+<!-- key learnings:
+
+1) USE FLOAT ACCORDING TO THE WIDTH PERCENTAGES FOR DIV BLOCKS
+2) FOR RESPONSIVE WEBSITES DONT USE PIXELS TO REARRANGE A BLOCK OF IMAGE OR SOME TEXT RATHER THAN THAT USE width in percentage for adjusting images and div -->

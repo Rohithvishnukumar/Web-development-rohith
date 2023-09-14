@@ -64,7 +64,7 @@
             
         }
 
-        @media (max-width: 430px) {
+        @media (max-width: 600px) {
             p {
                 font-size: 20px;
                 font-family: 'Great Vibes', cursive;
@@ -94,22 +94,18 @@
             }
 
             img {
-                height: 300px;
-                width: 350px;
+                width: 100%;
+                display: block;
+                padding: 0px;
+                
 
             }
 
-            .java {
-
-                width: 400px;
-                height: auto;
-            }
-
-            .python {
-
-                width: 400px;
-                height: auto;
-
+            div{
+                width: 100%;
+                display: inline;
+                padding: 0px;
+                
             }
 
         }
@@ -159,3 +155,9 @@
 </body>
 
 </html>
+
+
+<!-- key learnings:
+
+1) USE FLOAT ACCORDING TO THE WIDTH PERCENTAGES FOR DIV BLOCKS
+2) FOR RESPONSIVE WEBSITES DONT USE PIXELS TO REARRANGE A BLOCK OF IMAGE OR SOME TEXT RATHER THAN THAT USE width percentage and menthon display style-->
