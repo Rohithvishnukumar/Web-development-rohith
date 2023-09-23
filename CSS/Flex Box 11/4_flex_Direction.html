@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        .red{
+            background-color: red;
+            /* flex-basis: 50px; */
+        }
+        .orange{
+            background-color: orange;
+            /* flex-basis: 20px; */
+        }
+        .yellow{
+            background-color: yellow;
+            /* flex-basis: 100px; */
+        }
+
+        .green{
+            background-color: green;
+            /* flex-basis: 75px; */
+        }
+
+        .blue{
+            background-color: blue;
+            /* flex-basis: 40px; */
+        }
+
+        .indigo{
+            background-color: indigo;
+            /* flex-basis: 50px; */
+        }
+
+        .violet{
+            background-color: violet;
+            /* flex-basis: 50px; */
+        }
+
+        div{
+
+            width: 600px;
+
+            /* height: 400px; */
+            
+            border: black solid ;
+            display: flex;
+            flex-direction: row;
+            flex-basis:50px;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <div>
+        <div class="red">Red</div>
+        <div class="orange">Orange</div>
+        <div class="yellow">Yellow</div>
+        <div class="green">Green</div>
+        <div class="blue">blue</div>
+        <div class="indigo">Indigo</div>
+        <div class="violet">Violet</div>
+    </div>
+</body>
+</html>
+
+
+
+<!-- IN ROW:(Height remains normally)
+
+1) if only width is set then all contents will adjust to that equally
+2) if only flex basis is set and width is not set then contents adjust to set basis 
+3) if width is set and flex-basis is set then the outline is width and contents are adjusted to the set basis
+4) if width and flex basis is not set then outline occupies entire screen with each content is set to its textarea size
+ 
+-->
+
+<!-- IN COLUMN:(Width remains normally)
+
+1) if only height is set then all contents will adjust to that equally
+2) if only flex-basis is set and height is not set then contents are adjusted to the set size without outline
+3) if height is set and flex-basis is set then the outline is height and contents are adjusted to the set basis
+4) if height and flex basis is not set then there will be no outline but the contents are adjusted to its textarea
+
+-->

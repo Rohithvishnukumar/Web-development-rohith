@@ -1,5 +1,6 @@
 {
     "editor.mouseWheelZoom": true,
     "files.autoSave": "afterDelay",
-    "livePreview.defaultPreviewPath": "/CSS/Motivational_poster-1.html"
+    "livePreview.defaultPreviewPath": "/CSS/Motivational_poster-1.html",
+    "liveServer.settings.port": 5501
 }
