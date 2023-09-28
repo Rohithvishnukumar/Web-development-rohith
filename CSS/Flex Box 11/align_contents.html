@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Align contents</title>
+
+    <style>
+        .v{
+            background-color: violet;
+            order: 2;
+        }
+
+        .i{
+            background-color: indigo;
+            order: 3;
+        }
+
+        .b{
+            background-color: blue;
+        }
+
+        .g{
+            background-color: green;
+            
+        }
+
+        .y{
+            background-color: yellow;
+            order: 1;
+        }
+
+        .o{
+            background-color: orange;
+        }
+
+        .r{
+            background-color: red;
+        }
+
+        
+        .parent{
+            flex-wrap: wrap-reverse;
+            display: flex;
+            flex-direction: row;
+            height: 60vh;
+            align-content: center;
+            
+        }
+
+       
+        .parent > div{
+            flex-basis: 60px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent">        
+        <div class="v">violet</div>
+        <div class="i">indigo</div>
+        <div class="b">blue</div>
+        <div class="g">green</div>
+        <div class="y">yellow</div>
+        <div class="o">orange</div>
+        <div class="r">red</div>
+    </div>
+</body>
+</html>
+
+
+
+<!-- https://appbrewery.github.io/flexboxfroggy/ -->

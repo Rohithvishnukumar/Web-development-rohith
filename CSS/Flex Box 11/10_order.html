@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order</title>
+
+    <style>
+
+    
+        .v{
+            background-color: violet;
+            order: 2;
+        }
+
+        .i{
+            background-color: indigo;
+            order: 3;
+        }
+
+        .b{
+            background-color: blue;
+        }
+
+        .g{
+            background-color: green;
+            
+        }
+
+        .y{
+            background-color: yellow;
+            order: 1;
+        }
+
+        .o{
+            background-color: orange;
+        }
+
+        .r{
+            background-color: red;
+        }
+
+        
+        .parent{
+            display: flex;
+            flex-direction: row;
+            /* flex-basis: 50px;    there is no use as this sets the flex basis to the container  */
+            
+        }
+
+        /* to avoid the above problem we need to set flex-basis for individual element */
+
+        .parent > div{
+            flex-basis: 90px;
+        } 
+
+    </style>
+
+</head>
+
+<body>
+    <div class="parent">        
+        <div class="v">violet</div>
+        <div class="i">indigo</div>
+        <div class="b">blue</div>
+        <div class="g">green</div>
+        <div class="y">yellow</div>
+        <div class="o">orange</div>
+        <div class="r">red</div>
+    </div>
+</body>
+</html>
+
+<!-- higher numbered order is set at the first (which is from right) -->

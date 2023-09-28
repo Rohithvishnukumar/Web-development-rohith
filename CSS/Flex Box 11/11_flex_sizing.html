@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Sizing</title>
+
+    <style>
+        .rohith{
+            display: flex;
+            gap: 20px;
+            border: solid black;
+        }
+
+        .r{
+            background-color: blue;
+        }
+
+        .v{
+            background-color: yellow;
+        }
+
+        .k{
+            background-color: red;
+        }
+
+        .rohith > *{
+            font-size: 60px;
+            /* width: 350px; */
+            flex-basis: auto;
+            flex-shrink: 1;
+            flex-grow: 1;
+
+            /* min-width: 5px;
+            max-width: 150px; */
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <div class="rohith">
+        <div class="r">Home</div>
+        <div class="v">About</div>
+        <div class="k">Java is the best Programming Language</div>
+    </div>
+</body>
+</html>
+
+
+
+<!-- width: when there is enough space then it is going to respect the parameter if the space is less then it shrinks to the min-width ( if anything not set it follows highest word length)
+
+flex-basis: same as width but be careful of priority
+
+max-width: it is used to determine how much the element is allowed to grow. (flex-basis gets priority only if the flex-basis is less than max-width) 
+
+min-width: it is used to determine how much the element is allowed to shrink.
+
+flex-grow: allows the element to grow when set to 1 and not when 0
+
+flex-shrink: allows the element to shrink when set to 1 and not when 0-->
