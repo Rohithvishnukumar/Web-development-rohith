@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form </title>
+
+    <style>
+        .container{
+            width: 450px;
+            border: 5px solid black;
+            background-image: url(https://img.freepik.com/free-vector/dark-gradient-background-with-copy-space_53876-99548.jpg?size=626&ext=jpg&ga=GA1.1.1826414947.1699142400&semt=ais);
+            background-size: cover; 
+            color: white;
+            margin-left: 550px;
+            margin-top: 70px;
+            border-radius: 30px;
+            font-size: 20px;
+            opacity: 70%;
+        }
+
+        .vircon{
+            margin-left: 60px;
+        }
+
+        #vis{
+            margin-left: 70px;
+            background-color: #17d10d;
+            padding: 10px;
+            border-radius: 20px;
+        }
+
+        body{
+            background-image: url(https://media.tenor.com/9vRAkntogEMAAAAd/background.gif);
+            background-size: cover;
+        }
+        
+
+        
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="vircon">
+        <h1>Registration form</h1>
+
+        <form action="rohith.js">
+            <label for="ro1"><B>First Name</B></label><br>
+            <input type="text" name="ro1" id="ro1" size="40px" required>
+
+            <div class="sec">
+                <label for="ro2"><B>Last Name</B></label><br>
+                <input type="text" name="ro2" id="ro2" size="40px" required>
+            </div><br>
+
+            <label for="emr"><B>Email</B></label><br>
+            <input type="email" name="emr" id="emr" required pattern=".+@gmail\.com" size="40px">
+
+            <B><p>Gender</p></B>
+
+
+            <input type="radio" required name="rad" id="rvk1">
+            <label for="rvk1">FeMale</label>
+
+            <input type="radio" required name="rad" id="rvk2">
+            <label for="rvk2">Male</label><br><br> 
+
+            <B>City</B> <br>
+
+
+            <input type="text" name="city" id="city" required size="40px"><br>
+            <B>Country</B> <br>
+            <input type="text" name="country" id="country" required size="40px"><br><br>
+
+            <input type="submit" id="vis" value="REGISTER NOW">
+
+        </form>
+    </div>
+    </div>
+</body>
+
+</html>
