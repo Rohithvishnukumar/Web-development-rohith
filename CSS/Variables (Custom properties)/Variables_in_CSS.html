@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Variables in CSS</title>
+
+    <style>
+        .rohith{
+            --rohith: red;    /* this is a variable which is initialised by -- */
+
+            width: 200px;
+            height: 200px;
+
+            background-color: var(--rohith);
+            
+        }
+
+        .parent {
+            display: flex;
+            gap: 20px;
+
+        }
+
+        .vishnu{
+            background-color: blue;
+            width: 200px;
+            height: 200px;
+        }
+
+        .kumar{
+            background-color: rgb(12, 12, 45);
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="parent">
+
+        <div class="rohith"></div>
+
+        <div class="vishnu"></div>
+
+        <div class="kumar"></div>
+
+    </div>
+</body>
+
+</html>

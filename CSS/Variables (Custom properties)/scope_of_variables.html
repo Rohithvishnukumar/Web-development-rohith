@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Variables in CSS</title>
+
+    <style>
+        :root {
+            --kcolor: black;
+        }
+        .rohith {
+            --rcolor: red;
+            /* this is a variable which is initialised by -- */
+
+            width: 200px;
+            height: 200px;
+            background-color: var(--rcolor);
+        }
+
+        .parent {
+            display: flex;
+            gap: 20px;
+
+        }
+
+        .vishnu {
+            --vcolor: blue;
+            background-color: var(--vcolor);
+            width: 200px;
+            height: 200px;
+        }
+
+        .kumar {
+            /* background-color: var(--vcolor);   this does not work as the scope of the gariable is restricted to that class or id . To solve this use (:root) such that the variable delared in root can be used in all the classes*/
+
+            background-color: var(--kcolor);
+            width: 200px;
+            height: 200px;
+        }
+
+        .asus {
+            --kcolor: yellow;
+            /* here the variable is overrided*/
+            background-color: var(--kcolor);
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="parent">
+
+        <div class="rohith"></div>
+
+        <div class="vishnu"></div>
+
+        <div class="kumar"></div>
+
+        <div class="asus"></div>
+
+    </div>
+</body>
+
+</html>
