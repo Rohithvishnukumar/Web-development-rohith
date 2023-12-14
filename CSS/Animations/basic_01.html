@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Animations by rohith vishnu</title>
 
     <style>
-        div{
+        div {
             height: 200px;
             width: 200px;
             background-color: black;
@@ -14,27 +15,39 @@
             animation-duration: 3s;
             animation-iteration-count: 10;
             /* animation-timing-function: ease-in-out; */
-            animation-fill-mode: forwards;
+            animation-fill-mode: backwards;
+            animation-direction: alternate;
         }
 
-        @keyframes rohith{
-            from{
+        @keyframes rohith {
+            from {
                 width: 0px;
             }
 
-            to{
+            to {
                 width: 600px;
             }
         }
-
-
     </style>
 </head>
 
 <body>
-    <div>
 
-    </div>
+    <div></div>
+
 </body>
 
 </html>
+
+
+
+
+<!-- Ease-In: The animation starts slowly and accelerates as it progresses.
+
+Ease-Out: The animation starts quickly and decelerates as it approaches the end.
+
+Ease-In-Out: A combination of ease-in and ease-out, where the animation starts slowly, accelerates in the middle, and then decelerates towards the end.
+
+Linear: The animation progresses at a constant speed from start to finish without acceleration or deceleration.
+
+Cubic Bezier: A customizable timing function defined by a set of control points, allowing for more fine-grained control over the animation curve. -->
