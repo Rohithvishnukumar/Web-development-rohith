@@ -1,24 +1,23 @@
-// const names = {
+const names = {
 
-//     "rohith" : 34 ,
-//     "vishnu" : BigInt("6566") ,
-//     kumar : "Youtuber",
-//     ROG : Symbol("Gamers"),
-//     "rvk" : undefined,
-//     "asus" : null
-// }
+    "rohith" : 34 ,
+    "vishnu" : BigInt("6566") ,
+    kumar : "Youtuber",
+    ROG : Symbol("Gamers"),
+    "rvk" : undefined,
+    "asus" : null
+}
 
-// // names = 9;
+// names = 9;
 
-// console.log(names)  
-
+console.log(names)  
 
 
 
 
 // if it is not a constant variable then
 
-let marks = {    // (let or var can be used)
+let marks = {    
 
     mouse : 33,
     "Keyboard" : 55,
