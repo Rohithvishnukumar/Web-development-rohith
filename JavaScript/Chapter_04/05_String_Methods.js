@@ -5,7 +5,7 @@ let stri = "Rohith Vishnu Kumar Vishnu"
 let str2 = "Hello"
 let str3 = "       Rohith Vishnu   Kumar       "
 
-console.log(stri.length)     // 1
+console.log(stri.length)     // 1 gives length
 
 let temp = stri.toUpperCase()   //2
 console.log(temp);
