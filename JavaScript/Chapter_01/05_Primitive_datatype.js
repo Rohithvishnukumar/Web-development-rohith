@@ -14,7 +14,7 @@ console.log(a ,b,c,d,e,f,g)
 let sum = BigInt("1") + BigInt("3")
 console.log(sum)
 
-//you can get the type with this typeof() method
+//you can get the type with this typeof operator 
 
 console.log( typeof(a) )    
 console.log( typeof(b) )
