@@ -8,3 +8,8 @@ console.log(arr)   // it updates the array
 console.log(b)
 
 console.log(arr2)
+
+
+
+
+// sort() sorts alphabetically like it assumes as the elements of the arraay as a string and sorts it in lexicographic manner

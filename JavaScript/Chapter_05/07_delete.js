@@ -6,4 +6,4 @@ console.log(arr);
 console.log(arr.length);
 
 
-// note that this is not a method rather it is an operator
+// note that delete is not a method rather, it is an operator\[]

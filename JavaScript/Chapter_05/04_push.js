@@ -1,6 +1,6 @@
 let arr = [ "rohith", "vishnu" , 99 , 7 , "k",44.44 , true]
 
-let b = arr.push(3)   // updates the array
+let b = arr.push(3 , 999)   // updates the array
 
 
 console.log(arr);
