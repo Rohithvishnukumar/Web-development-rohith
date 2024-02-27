@@ -1,0 +1,15 @@
+{
+    "name" : "Rohith",
+    "Age" : 19,
+    "isgood" : true,
+    "driving_liscense" : null,
+    "intrests": ["Movies", "Singing", "Programming"] ,
+    "seethis" : {
+        "name" : "Vishnu",
+        "age": 22,
+        "isgood": false,
+        "likes": ["cooking" , "Eating" , {"rvis" : "hello world"}]
+    } 
+}
+
+
