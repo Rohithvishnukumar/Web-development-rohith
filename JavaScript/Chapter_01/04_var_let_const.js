@@ -4,7 +4,7 @@
 
 var a = 90;
 let b = 34;
-const c = 23;
+const c = 23; 
 
 console.log(a);
 console.log(b);
@@ -45,6 +45,16 @@ var a = "vishnu"    // you can re-declare the variable
 // let a = 3434;       //  it can be only done with a var to var re-declaration
 
 console.log(a);
+
+
+
+
+
+
+
+
+
+// this means, the variables both let and var updated in the block are also updated globally but just the (let) declaration in the block cannot be accessed out of the block 
 
 
 

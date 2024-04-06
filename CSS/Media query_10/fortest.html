@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+
+      .left {
+        background-color: yellow;
+        /* width: 300px; */
+        float: left;
+        display: block;
+        display: inline;
+      }
+
+      .right {
+        background-color: blueviolet;
+        float: right;
+        /* width: 300px; */
+        display: block;
+        display: inline;
+        
+      }
+
+      @media (max-width: 600px) {
+        .left {
+            clear: both;
+          background-color: rgb(73, 20, 20);
+          width: 50%;
+          display: inline;
+          /* display: block; */
+          
+        }
+
+        .right {
+            clear: both;
+          background-color: rgb(161, 28, 176);
+          width: 50%;
+          display: inline;
+          /* display: block; */
+          
+          
+        }
+      }
+    </style>
+
+
+
+
+  </head>
+
+
+
+
+
+  <body>
+    <div class="left">
+     hi
+    </div>
+
+    <div class="right">
+      hi
+    </div>
+  </body>
+</html>
