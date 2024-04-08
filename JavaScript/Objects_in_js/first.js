@@ -13,3 +13,6 @@ console.log(waiter_1.name)
 console.log(typeof(waiter_1))
 
 // you can use var , let also but const is mostly preferred
+
+// you can also use a function in the place of value
+

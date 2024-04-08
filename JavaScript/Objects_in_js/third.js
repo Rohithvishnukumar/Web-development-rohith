@@ -18,25 +18,3 @@ console.log(typeof w1);
 
 
 
-
-
-// In Javascript you cannot directly declare instance variables inside the class rather you can declare variables via a Constructor or Method. Static variables can be directly declared
-
-
-
-class example{
-
-    constructor(){
-        this.temp = "rohith";
-    }
-}
-
-class exmp{
-
-    mymethod(){
-        this.laptop = "ROG";
-    }
-}
-
-
-// Methods inside the class are declared without the keyword function

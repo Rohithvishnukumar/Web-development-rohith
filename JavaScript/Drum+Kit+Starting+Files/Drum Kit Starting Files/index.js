@@ -1,4 +1,4 @@
-// document.querySelector(".drum").addEventListener("click" , meth1);            // instead of writing  meth1 seperately you can use anonymous function
+// document.querySelector(".drum").addEventListener("click" , meth1);            // instead of writing  meth1 seperately you can use anonymous function here you should not call the method as usually like meth1() in the event listener as meth1 is a callback function
 
 // function meth1(){
 //     alert("Hello you click on me........")
@@ -8,13 +8,15 @@
 
 
 
-// With Anonymous Function
+// you can also go With Anonymous Function insted of calling the function (best practice as you can call multi parametered functions from the anonymous functions )
 
 // document.getElementById("rohith").addEventListener("click" , function(){
 //     alert("This alert is done by Using Anonymous Function")
 // })
 
 
+
+// note that 
 
 
 
@@ -23,23 +25,44 @@
 
 //---------------- to select all the queries-------------------------
 
-let a = document.querySelectorAll(".drum");
 
 
-for (let i = 0; i < a.length; i++) {
-
-    var letter = document.querySelectorAll(".drum")[i].addEventListener("click", meth2);
 
 
+let arr = document.querySelectorAll(".drum");
+
+for (let i = 0; i < arr.length; i++) {
+
+    document.querySelectorAll(".drum")[i].addEventListener("click", function (event) {
+
+        // console.log("----------------" , event);
+        // console.log("********" , this)
+        var keyb = this.innerHTML;
+        meth2(keyb);
+        buttonAnimation(keyb);
+    });
 }
 
-function meth2() {
 
-    var key = this.innerHTML;
 
-    console.log(key);
+document.addEventListener("keydown", function (event) {
 
-    switch (key) {
+
+    // console.log("----------------" , event);
+    // console.log("********" , this)
+    keyb = event.key;
+    meth2(keyb);
+    buttonAnimation(keyb);
+
+});
+
+
+
+
+
+function meth2(keyb) {
+
+    switch (keyb) {
 
         case "w":
             var aud = new Audio("sounds/crash.mp3");
@@ -76,19 +99,34 @@ function meth2() {
             aud.play();
             break;
 
-
         default:
-            alert("Nothing is selected")
+            alert("Select the keys among w,a,s,d,j,k,l ")
             break;
     }
+}
+
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
 
 
+async function buttonAnimation( param1 ) {
 
+    console.log(param1);
 
-
+    document.querySelector("." + param1).style.borderColor = "yellow" ;
+    await sleep(200);
+    document.querySelector("." + param1).style.borderColor = "#404B69" ;
 
 
 }
+
+
+
+
+
+
+
 
 
 
@@ -103,6 +141,12 @@ function meth2() {
 // function meth3(){
 //     alert("helloooooooooooooooooo")
 // }
+
+
+
+
+
+
 
 
 

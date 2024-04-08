@@ -1,6 +1,6 @@
-// We can also create object by using constructors
+// We can also create object by using constructor function
 
-function Waiters(name ,empid, age, languages ){
+function Waiters(name ,empid, age, languages ){      // the constructor name must be in Pascal case (best Practice)
 
     this.name = name;
     this.empid = empid;
