@@ -1,3 +1,7 @@
+// Passing a function inside an another function as a param are called as higher order functions
+
+
+
 function add( num1 , num2){
     return num1 + num2;
 }

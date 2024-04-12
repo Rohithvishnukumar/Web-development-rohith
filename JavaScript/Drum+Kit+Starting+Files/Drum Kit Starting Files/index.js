@@ -123,6 +123,9 @@ async function buttonAnimation( param1 ) {
 
 
 
+// you can also use setTimeout(function , time in ms); for delay 
+
+
 
 
 
