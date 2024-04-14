@@ -1,6 +1,27 @@
 {
     "configurations": [
         {
+            "type": "java",
+            "name": "ll",
+            "request": "launch",
+            "mainClass": "ll",
+            "projectName": "Rohith (Web Development)_1255a6c5"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "Solution",
+            "projectName": "Rohith (Web Development)_1255a6c5"
+        },
+        {
+            "type": "java",
+            "name": "something",
+            "request": "launch",
+            "mainClass": "something",
+            "projectName": "Rohith (Web Development)_1255a6c5"
+        },
+        {
             "type": "chrome",
             "name": "http://127.0.0.1:3000/Section-2 - Intro to HTML/Second_task.html",
             "request": "launch",

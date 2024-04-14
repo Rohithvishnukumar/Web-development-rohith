@@ -1,0 +1,16 @@
+ls
+cd
+~ is root directory
+
+ctrl + A  is starting 
+ctrl + E  is Ending 
+ctrl + U  is clear current 
+
+mkdir  to make a directory
+
+touch to create a new file
+start to start a desred file
+
+
+rm to remove a file
+rm -rf to remove a directory  (or you can also use rm -r)
