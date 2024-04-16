@@ -19,3 +19,6 @@ function add_and_exp(x, y) {     // this function is adding the values and expon
 // inclusion of return statement in the code is upto user
 // you can also create functions without any arguments
 
+
+
+// you cannot use var, let or const for function parameters

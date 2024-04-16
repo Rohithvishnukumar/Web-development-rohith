@@ -11,4 +11,10 @@ for( let temp in names){
     console.log(temp + "-------" + names[temp] )
 }
 
+console.log();
+
+for(temp in names){
+    console.log(temp + "--------" , names.temp );    // this does not work 
+}
+
 // for-in loop is used to loop through the keys of an object

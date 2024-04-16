@@ -9,3 +9,4 @@ console.log( typeof(temp))   // prompt will be always string by default
 
 temp = Number.parseInt(temp);
 console.log(typeof(temp))
+console.log(temp);

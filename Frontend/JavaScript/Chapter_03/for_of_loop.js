@@ -14,3 +14,14 @@ const names = {
 for( let a of "Vishnu"){
     console.log(a)
 }
+
+
+
+var arr = [1,3,5,6,2,542,35,];
+
+for (const b of arr) {
+
+    console.log(b);  
+}
+
+console.log(typeof arr);

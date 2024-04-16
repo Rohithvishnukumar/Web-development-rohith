@@ -7,8 +7,9 @@ let d = Symbol("I am a Symbol");
 let e = true
 let f = BigInt("99")
 let g = undefined     // or let g ; can also be written for undefined without any initilisation
+let h = BigInt(3132);
 
-console.log(a ,b,c,d,e,f,g)
+console.log(a ,b,c,d,e,f,g,h)
 
 
 let sum = BigInt("1") + BigInt("3")
@@ -23,3 +24,4 @@ console.log( typeof(d) )
 console.log( typeof(e) )
 console.log( typeof(f) )
 console.log( typeof(g) )
+console.log( typeof(h) )
