@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "some",
+            "request": "launch",
+            "mainClass": "some",
+            "projectName": "Rohith (Web Development)_1255a6c5"
+        },
+        {
+            "type": "java",
             "name": "ll",
             "request": "launch",
             "mainClass": "ll",

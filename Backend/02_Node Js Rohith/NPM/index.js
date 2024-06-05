@@ -10,5 +10,7 @@ console.log(`My name is ${na}`)               // if you change the type then you
 // var vis = require("superheroes");
 import vis from "superheroes";
 
-console.log(`The name of the super hero is ${vis.all} `);
-console.log(`The name of the super hero is ${vis.random()} `);
+
+
+// console.log(`The name of the super hero is ${vis.all} `);
+// console.log(`The name of the super hero is ${vis.random()} `);

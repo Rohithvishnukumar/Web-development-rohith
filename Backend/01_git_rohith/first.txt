@@ -3,6 +3,8 @@ cd
 pwd
 ~ is root directory
 
+ls -a is used to show all the file including hidden
+
 ctrl + A  is starting 
 ctrl + E  is Ending 
 ctrl + U  is clear current 
@@ -17,3 +19,13 @@ rm to remove a file
 rm -rf to remove a directory  (or you can also use rm -r)
 
 If the directory name has white spaces then use "directory name" double quotes 
+
+
+git init
+git status
+git add filename
+git commit -m "commit message"
+git log
+git diff filename
+git checkout filename
+
