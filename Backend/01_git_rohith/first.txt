@@ -21,11 +21,39 @@ rm -rf to remove a directory  (or you can also use rm -r)
 If the directory name has white spaces then use "directory name" double quotes 
 
 
+
+--------------------GIT--------------------------------
+
+before commiting always you need to add to staging area
+
+
+(. is used to represent all)
+
 git init
 git status
 git add filename
+git rm --cached -r filename   (to remove the files from stagging area)
 git commit -m "commit message"
 git log
 git diff filename
 git checkout filename
+
+
+git remote add origin url 
+
+git push -u origin main
+
+
+branching:
+
+git branch branchname  (to create a branch)
+git branch (to check which braches are there )
+git checkout branchname (to switch to the branch)
+
+merging:
+
+git merge branchname
+
+
+:q!
 

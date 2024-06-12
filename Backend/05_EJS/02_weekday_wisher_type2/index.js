@@ -30,7 +30,7 @@ app.get("/" , function(req,res){
             week : "Weekday",
             sugges:"Its time to work hard",
         }
-        res.render("index.ejs" , data = data )
+        res.render("index.ejs" , data  )
     }
     
 })
