@@ -8,8 +8,9 @@ res.render("path for template files (such as ejs or pug)" , data)  in this data 
 
 note that you cannot use sendFile for template files as they are dynamic we need to use render
 
-if you are running the parsed data outside the ejs tags in the ejs file then use locals.data in  order to access the data
+if you are running the parsed data outside the ejs tags in the ejs file then use locals.data in  order to access the data (// suggested whereever you use usewith locals)
 
 if you use res.redirect()  then use routes 
 
 if you are getting the error of data is not defined then you always declare the parsing variable outside the app.post() method
+
